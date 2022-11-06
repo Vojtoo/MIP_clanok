@@ -1,6 +1,7 @@
 % Metódy inžinierskej práce
+%Vojtech Babinský, 120750, 2022
 
-\documentclass[10pt,twoside,slovak,a4paper]{article}
+\documentclass[10pt,oneoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -10,10 +11,16 @@
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 
-
+\usepackage{caption}
 
 \usepackage{cite}
 %\usepackage{times}
+
+\newcommand{\source}[1]{\caption*{Source: {#1}} }
+
+%použil som príkaz z nasledujúceho linku na pridanie zdroja k obrázku
+%https://tex.stackexchange.com/questions/95029/add-source-to-figure-caption
+
 
 \pagestyle{plain}
 
@@ -61,7 +68,8 @@ Tá môže nastať po konfrontácii s inými ľuďmi, zvieratami a príšerami, 
 		
 		\includegraphics[width=12.5cm,keepaspectratio]{REID_graf.png}
 		\caption{\textit{Časová os vzniku žánru videohier s tematikou prežitia}}
-\label{ fig:Časová os vzniku žánru videohier s tematikou prežitia}
+		\label{ fig:Časová os vzniku žánru videohier s tematikou prežitia}
+  		\caption*{Zdroj: Reid (2018). \cite{Reid}}
 		
 	\end{flushleft}
 \end{figure}
@@ -99,14 +107,15 @@ UnReal world je držiteľom dvoch rekordov: je to najdlhšie podporovaná hra na
 
 Táto survival hra z roku 2014, sa odohráva v zimnej a drsnej kanadskej divočine. The Long Dark ponúka survival mód a príbehový mód s názvom Wintermute.
 
-Survival mód sa  sústrďuje iba na samo prežitie, ide o sandbox  mód (hráč má voľnú ruku v tom ako chce hrať).  Samozrejme, hra ponúka  možnosť získania rôznych úspechov (achievementov), ktoré môžu motivovať ľudí k hraniu. 
+Survival mód sa  sústrďuje iba na samo prežitie, ide o sandbox  mód (hráč má voľnú ruku v tom ako chce hrať).  Samozrejme, hra ponúka  možnosť získania rôznych úspechov (achievementov), ktoré môžu motivovať ľudí k ďalšiemu hraniu. 
 
-V príbehovom móde hráč striedavo hrá ako pilot Will Mackenzie  a doktorka  Astrid Greenwoodová. Počas ich letu svet postihla nevysvetlená katastrofa, ktorá zapríčinila pád ich lietadla. Cieľom hráča je priviesť oboch hrdinov ku sebe a odhaliť dôvod katastrofy.
-Momentálne sú dostupné štyri kapitoly príbehu, pričom záverečná piata je momentálne vo vývoji.
+V príbehovom móde hráč striedavo hrá za pilota Willa Mackenzieho  alebo doktorku  Astrid Greenwoodovú. Počas spoločného letu svet postihla nevysvetlená katastrofa, ktorá zapríčinila pád ich lietadla. Cieľom hráča je priviesť oboch hrdinov ku sebe a odhaliť dôvod katastrofy.
+
+Momentálne sú dostupné štyri kapitoly príbehu, pričom záverečná piata je vo vývoji.
 
 
 \subsection{Survival Horror}
-Pojem Survival horror sa prvýkrát objavil v hre Resident evil, a odvtedy sa používa na označenie hier tohto typu. \cite{Kirkland} Tieto hry kombinujú silný emočný zážitok hororových filmov s mechanikami hier o prežitie.Strach u hráča vyvoláva často prostredie, tma, hudba a rozličné príšery.
+Pojem Survival horror sa prvýkrát objavil v hre Resident evil, a odvtedy sa používa na označenie hier tohto typu. \cite{Kirkland} Tieto hry kombinujú silný emočný zážitok hororových filmov s mechanikami hier o prežitie.Strach a pocit napätia u hráča vyvoláva často  tmavé prostredie, hudba a rozličné príšery.
 
 \subsubsection{Resident Evil}
 Séria Resident Evil, patrí medzi najpopulárnejšie tohto subžánru. Od roku 1996 vrátane, vyšlo desať hlavných hier, hoci spolu s rôznymi vedľajšími by to mohlo byť okolo tridsať.  \cite{ResEv}
