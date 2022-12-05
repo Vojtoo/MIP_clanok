@@ -1,4 +1,0 @@
-\babel@toc {slovak}{}\relax 
-\beamer@sectionintoc {1}{Úvod}{4}{0}{1}
-\beamer@sectionintoc {2}{História}{6}{0}{2}
-\beamer@sectionintoc {3}{Subžánre}{7}{0}{3}
